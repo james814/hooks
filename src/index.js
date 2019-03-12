@@ -2,5 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Count from './Count'
 import ToDoList from './todolist/ToDoList'
+import App from './context/App'
 
-ReactDOM.render(<ToDoList/>,document.querySelector("#root"))
+ReactDOM.render(<App />, document.querySelector("#root"))
